@@ -25,7 +25,7 @@ function Install-Winget {
 Install-Winget -packageName "Microsoft.PowerToys" -displayName "Microsoft PowerToys"
 Install-Winget -packageName "Microsoft.VisualStudioCode" -displayName "Visual Studio Code"
 Install-Winget -packageName "Python.Python.3" -displayName "Python"
-Install-Winget -packageName "NodeJS.NodeJS" -displayName "Node.js"
+Install-Winget -packageName "OpenJS.NodeJS" -displayName "Node.js"
 Install-Winget -packageName "Brave.Brave" -displayName "Brave Browser"
 
 Write-Host "Instalación de programas completada."
