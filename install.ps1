@@ -1,16 +1,13 @@
-# Función para imprimir mensajes de éxito en verde
 function Write-Success {
     param([string]$message)
     Write-Host $message -ForegroundColor Green
 }
 
-# Función para imprimir mensajes de error en rojo
 function Write-Error {
     param([string]$message)
     Write-Host $message -ForegroundColor Red
 }
 
-# Función para instalar programas usando winget
 function Install-Winget {
     param (
         [string]$packageName,
